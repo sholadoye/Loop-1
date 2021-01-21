@@ -1,0 +1,41 @@
+body{
+  background: lightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.content{
+  margin: 6rem auto;
+  background: #f9f9f9;
+  width: 27rem;
+  height: 32rem;
+}
+
+li{
+  color: white;
+}
+
+.header{
+  background: #3298DB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1rem;
+}
+
+.chat{
+  display: flex;
+  align-items: center;
+}
+
+.line1,
+.line2 {
+  border: 1px solid #C7D3D5;
+  margin: 1rem 1rem;
+  width: 10rem;
+}
+
+.day{
+  color: #C7D3D5;
+}
+

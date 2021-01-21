@@ -1,0 +1,106 @@
+body{
+  background: url(/media/background1-2.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.cards{
+  background-color: white;
+  width: 25rem;
+  height: 23rem;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  font-family: sans-serif;
+  color: #34485E;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.heading,
+.visa-card,
+.maestro-card,
+.mastercard{
+  border-bottom: 1px solid #CAD5D9;
+}
+
+.circle {
+  display: flex;
+  width: 30px;
+  justify-content:space-between; 
+  margin:0 auto;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.more1{
+  background-color: black;
+}
+
+.more2,
+.more3{
+  background-color: grey;
+}
+
+.more1,
+.more2,
+.more3 {
+  border-radius: 50%;
+  height: .4rem;
+  width: .4rem;
+}
+
+.visa-card,
+.mastercard,
+.maestro-card{
+  display: flex;
+  align-items: center;
+}
+
+.visa-card{
+  padding-bottom: 1rem;
+}
+
+.mastercard{
+  padding: .5rem 0;
+}
+
+.maestro-card{
+  padding: 1.1rem 0;
+}
+
+.visa,
+.master,
+.maestro {
+  height: 1.8rem;
+  width: 6rem;
+}
+
+.mark{
+  padding-left: 9rem;
+}
+
+span {
+  color: #95A4A6;
+}
+
+.next{
+  background: #328FCD;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.next p{
+  color: #ffffff;
+}
+
+.arrow{
+  height: 1.3rem;
+  padding-left: .4rem;
+}
